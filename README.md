@@ -73,8 +73,10 @@ When you re-open your project in RStudio, you should now have access to the Git 
 ![image](https://user-images.githubusercontent.com/59471339/113392690-192c2d80-93c8-11eb-874e-da7ae7df303f.png)
 
 You’ve now pushed your R project repository to your GitHub repository of the same name
-
+**
 Working on an existing GitHub repository
+**
+
 If there is an existing project that others are working on that you are asked to contribute to, you can link the existing project with your RStudio. It follows the exact same premise as that from the last lesson where you created a GitHub repository and then cloned it to your local computer using RStudio. In brief, in RStudio, go to File > New Project > Version Control. Select Git as your version control system, and like in the last lesson, provide the URL to the repository that you are attempting to clone and select a location on your computer to store the files locally. Create the project.
 
 
