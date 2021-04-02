@@ -53,5 +53,51 @@ To do this, go to GitHub.com, and again, create a new repository:
 
 
 
+Creating a repository on GitHub that is named the same as your R project
+
+Upon creating the repository, you should see a page like this:
+
+
+![image](https://user-images.githubusercontent.com/59471339/113392671-103b5c00-93c8-11eb-88dd-170cb25466d2.png)
+
+
+Your new repository on GitHub containing code to push from the command line
+
+You should see that there is an option to “Push an existing repository from the command line” with instructions below containing code on how to do so. In Git Bash or Terminal, copy and paste these lines of code to link your repository with GitHub. After doing so, refresh your GitHub page and it should now look something like the image below.
+
+When you re-open your project in RStudio, you should now have access to the Git tab in the upper right quadrant and can push to GitHub from within RStudio any future changes.
+
+
+
+
+![image](https://user-images.githubusercontent.com/59471339/113392690-192c2d80-93c8-11eb-874e-da7ae7df303f.png)
+
+You’ve now pushed your R project repository to your GitHub repository of the same name
+
+Working on an existing GitHub repository
+If there is an existing project that others are working on that you are asked to contribute to, you can link the existing project with your RStudio. It follows the exact same premise as that from the last lesson where you created a GitHub repository and then cloned it to your local computer using RStudio. In brief, in RStudio, go to File > New Project > Version Control. Select Git as your version control system, and like in the last lesson, provide the URL to the repository that you are attempting to clone and select a location on your computer to store the files locally. Create the project.
+
+
+![image](https://user-images.githubusercontent.com/59471339/113392762-36f99280-93c8-11eb-99c3-8161222408ff.png)
+
+Follow the same steps as previously done to clone your own repository to a new project in RStudio
+
+![image](https://user-images.githubusercontent.com/59471339/113392802-42e55480-93c8-11eb-9884-038e48d5df69.png)
+
+Clone an existing project from GitHub from within RStudio
+
+All the existing files in the repository should now be stored locally on your computer and you have the ability to push edits from your RStudio interface. The only difference from the last lesson is that you did not create the original repository, instead you cloned somebody else’s.
+
+Summary
+In this lesson, we went over how to convert an existing project to be under Git version control using the command line. Following this, we linked your newly version controlled project to GitHub using a mix of GitHub commands and the command line. We then briefly recapped how to clone an existing GitHub repository to your local machine using RStudio.
+
+
+
+
+
+
+
+
+
 
 
